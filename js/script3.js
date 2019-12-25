@@ -96,4 +96,15 @@
 //   console.log(b);
 
 
+let str ='qWeRtY';
+let str2 = '';
 
+for (let i = 0; i < str.length; i++) {
+  if (str[i].match(/[A-Z]/)) {
+    str2 += str[i].toLowerCase();
+  } else if (str[i].match(/[a-z]/)) {
+      str2 += str[i].toUpperCase();
+  }
+  else {str2 += str[i]};
+} 
+console.log(str2);
