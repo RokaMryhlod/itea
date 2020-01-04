@@ -505,5 +505,5 @@ function func(obj){
    return obj;
 
 }
-
+ 
   console.log(func(obj));
